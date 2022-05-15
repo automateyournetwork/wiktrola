@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "wiktrola"
-version = "0.1.0"
+version = "1.0.1"
 description = "Transform any Wikipedia article into an MP3"
 authors = ["John Capobianco <ptcapo@gmail.com>"]
 packages = [{ include = "wiktrola", from = "src"}]
