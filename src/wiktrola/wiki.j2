@@ -1,0 +1,17 @@
+"wiktrola has transformed the following Wikipedia Page, {{ title }} found at {{ URL }}
+
+The summary for this Wikipedia page:
+
+{{ summary | replace("\\n\\n\\n","\n")}}
+
+The main article for this Wikipedia page:
+
+{{ content | replace("\\n\\n\\n","\n") | replace('==','') | replace("\\n"," \n") | replace("=","") }}
+
+This Wikipedia is part of the following categories:
+
+{%- for cat in category %}
+{{ cat }}
+{%- endfor %}
+
+Thank you for using wiktrola"
