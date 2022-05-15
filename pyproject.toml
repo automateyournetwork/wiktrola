@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "wiktrola"
-version = "1.0.1"
+version = "1.0.2"
 description = "Transform any Wikipedia article into an MP3"
 authors = ["John Capobianco <ptcapo@gmail.com>"]
 packages = [{ include = "wiktrola", from = "src"}]
 readme = "README.md"
 
 [tool.poetry.scripts]
-pyKaraoke = 'wiktrola.script:run'
+wiktrola = 'wiktrola.script:run'
 
 [tool.poetry.dependencies]
 python = "^3.8"
