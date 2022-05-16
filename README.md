@@ -56,8 +56,9 @@ C:\>wiktrola\Scripts\activate
 ### Run the bot as an interactive session
 ```console
 
-(wiktrola)$ wiktrola
-
+(wiktrola)$ mkdir output_files
+(wiktrola)$ cd output_files
+(wiktrola)$ output_files\wiktrola
 ```
 ### The form questions:
 
